@@ -1,6 +1,6 @@
 """
 TC: O(N) {we only iterate once through the string s/t (len(s) == len(t))}
-SC: O(N) {we use one char map array and a set to track already mapped characters}
+SC: O(1) {The character space is only defined to a certain number, as we know the number of ascii characters as well}
 
 Approach:
 
